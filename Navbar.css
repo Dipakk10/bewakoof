@@ -1,0 +1,131 @@
+.topnav-1 {
+    padding: 5px 48px 8px 38px;
+    width: 100%;
+    height: auto;
+    background: #eeeeee;
+    color: #121213;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 10px;
+    font-weight: 500;
+
+    .topnav_1a {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5vw;
+    }
+
+    .imgage {
+        display: flex;
+        gap: 0.8vw;
+    }
+
+    .topnav_1b {
+        display: flex;
+        gap: 1vw;
+    }
+
+}
+
+.topnav-2 {
+    width: 100%;
+    display: inline-block;
+    border-bottom: 1px solid rgb(232, 232, 232);
+
+    .topnav-2z {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+        height: 60px;
+        max-width: 1536px;
+        margin: 0px auto;
+        padding: 0 20px 0 20px;
+        
+        .topnav_2y{
+            height: 100%;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        img {
+            width: 150px;
+            height: 20px;
+        }
+
+        .topnav_2a {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 22vw;
+            font-size: 14px;
+
+            a {
+                text-decoration: none;
+                color: #121213;
+                font-weight: 550;
+            }
+        }
+
+        .topnav_2b {
+            display: flex;
+            flex-wrap: wrap;
+            height: 100%;
+            align-items: center;    
+            padding: 10px;
+            
+            .has-search .form-control {
+                padding-left: 2.5rem;
+                height: 5.5vh;
+                width: 20vw;
+                border-radius: 0.4rem;
+                background-color: #EAEAEA;
+                border: none;
+                box-shadow: none;   
+                outline: none;
+
+            }
+            
+            .has-search .form-control-feedback {
+                position: absolute;
+                z-index: 2;
+                margin-left: 0.1rem;
+                display: block;
+                width: 1.675rem;
+                height: 1.975rem;
+                text-align: center;
+            }
+            
+            .topnav_2c {
+                display: flex;
+                align-items: center;
+                height: 100%;
+                gap: 20px;
+                padding: 10px;
+
+                p{
+                    font-size: 0.7em;
+                    font-weight: bolder;
+                }
+
+                img{
+                    height: 1.5em;
+                    width: 2em;
+                }
+
+                span {
+                    color: #DBD3D3;
+                    font-size: 30px;
+                    max-width: 65ch;
+                }
+            }
+
+
+        }
+
+
+    }
+
+}
