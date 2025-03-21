@@ -27,14 +27,17 @@ const Navbar = () => {
 
         <div className="topnav-2">
           <div className='topnav-2z'>
-            <img src="/Header/Bewakooflogo.svg" alt="logo" />
-            <div className='topnav_2a'>
-              <a href="#">MEN</a>
-              <a href="#">WOMEN</a>
-              <a href="#">MOBILE COVER</a>
+            <div className='topnav_2y'>
+              <img src="/Header/Bewakooflogo.svg" alt="logo" />
+              <div className='topnav_2a'>
+                <a href="#">MEN</a>
+                <a href="#">WOMEN</a>
+                <a href="#">MOBILE COVER</a>
+              </div>
             </div>
 
             <div className='topnav_2b'>
+
               <div class="form-group has-search">
                 <img src="/Header/search icon.svg" alt="Search" className='form-control-feedback' />
                 <input type="text" class="form-control" placeholder="Search" />

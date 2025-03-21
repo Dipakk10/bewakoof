@@ -32,73 +32,99 @@
     width: 100%;
     display: inline-block;
     border-bottom: 1px solid rgb(232, 232, 232);
-    border: 1px solid darkmagenta;
 
     .topnav-2z {
-        border: 1px dashed blue;
         display: flex;
         align-items: center;
+        justify-content: space-between;
         width: 80%;
         height: 60px;
         max-width: 1536px;
         margin: 0px auto;
         padding: 0 20px 0 20px;
-
         
+        .topnav_2y{
+            height: 100%;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
         img {
             width: 150px;
             height: 20px;
         }
 
         .topnav_2a {
-            border: 1px solid red;
-            gap: 40px;
-            align-items: center;
             display: flex;
-            float: left;
-            gap: 40px;
             align-items: center;
+            justify-content: space-evenly;
             width: 22vw;
-            height: auto;
             font-size: 14px;
 
             a {
                 text-decoration: none;
                 color: #121213;
+                font-weight: 550;
             }
         }
 
-
-        .has-search .form-control {
-            padding-left: 2.5rem;
-            height: 5.5vh;
-            width: 20vw;
-            border: 1px solid darkcyan;
-            border-radius: 0.4rem;
-        }
-
-        .has-search .form-control-feedback {
-            border: 1px solid darkorange;
-            position: absolute;
-            z-index: 2;
-            margin-left: 0.1rem;
-            display: block;
-            width: 1.675rem;
-            height: 1.975rem;
-            text-align: center;
-            color: #EAEAEA;
-            outline: none;
-            box-shadow: none;
-        }
-
-        .topnav_2c{
-            border: 1px solid pink;
+        .topnav_2b {
             display: flex;
+            flex-wrap: wrap;
+            height: 100%;
+            align-items: center;    
+            padding: 10px;
+            
+            .has-search .form-control {
+                padding-left: 2.5rem;
+                height: 5.5vh;
+                width: 20vw;
+                border-radius: 0.4rem;
+                background-color: #EAEAEA;
+                border: none;
+                box-shadow: none;   
+                outline: none;
 
-            span{
-                
             }
+            
+            .has-search .form-control-feedback {
+                position: absolute;
+                z-index: 2;
+                margin-left: 0.1rem;
+                display: block;
+                width: 1.675rem;
+                height: 1.975rem;
+                text-align: center;
+            }
+            
+            .topnav_2c {
+                display: flex;
+                align-items: center;
+                height: 100%;
+                gap: 20px;
+                padding: 10px;
+
+                p{
+                    font-size: 0.7em;
+                    font-weight: bolder;
+                }
+
+                img{
+                    height: 1.5em;
+                    width: 2em;
+                }
+
+                span {
+                    color: #DBD3D3;
+                    font-size: 30px;
+                    max-width: 65ch;
+                }
+            }
+
+
         }
+
 
     }
 
