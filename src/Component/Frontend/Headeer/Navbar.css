@@ -1,0 +1,105 @@
+.topnav-1 {
+    padding: 5px 48px 8px 38px;
+    width: 100%;
+    height: auto;
+    background: #eeeeee;
+    color: #121213;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 10px;
+    font-weight: 500;
+
+    .topnav_1a {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5vw;
+    }
+
+    .imgage {
+        display: flex;
+        gap: 0.8vw;
+    }
+
+    .topnav_1b {
+        display: flex;
+        gap: 1vw;
+    }
+
+}
+
+.topnav-2 {
+    width: 100%;
+    display: inline-block;
+    border-bottom: 1px solid rgb(232, 232, 232);
+    border: 1px solid darkmagenta;
+
+    .topnav-2z {
+        border: 1px dashed blue;
+        display: flex;
+        align-items: center;
+        width: 80%;
+        height: 60px;
+        max-width: 1536px;
+        margin: 0px auto;
+        padding: 0 20px 0 20px;
+
+        
+        img {
+            width: 150px;
+            height: 20px;
+        }
+
+        .topnav_2a {
+            border: 1px solid red;
+            gap: 40px;
+            align-items: center;
+            display: flex;
+            float: left;
+            gap: 40px;
+            align-items: center;
+            width: 22vw;
+            height: auto;
+            font-size: 14px;
+
+            a {
+                text-decoration: none;
+                color: #121213;
+            }
+        }
+
+
+        .has-search .form-control {
+            padding-left: 2.5rem;
+            height: 5.5vh;
+            width: 20vw;
+            border: 1px solid darkcyan;
+            border-radius: 0.4rem;
+        }
+
+        .has-search .form-control-feedback {
+            border: 1px solid darkorange;
+            position: absolute;
+            z-index: 2;
+            margin-left: 0.1rem;
+            display: block;
+            width: 1.675rem;
+            height: 1.975rem;
+            text-align: center;
+            color: #EAEAEA;
+            outline: none;
+            box-shadow: none;
+        }
+
+        .topnav_2c{
+            border: 1px solid pink;
+            display: flex;
+
+            span{
+                
+            }
+        }
+
+    }
+
+}
