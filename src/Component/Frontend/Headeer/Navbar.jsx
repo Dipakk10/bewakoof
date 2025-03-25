@@ -53,6 +53,22 @@ const Navbar = () => {
           </div>
         </div>
 
+        <div className="topnav-3">
+          <div className="topnav_3a">
+            <p><a href='#'>MEN</a></p>
+            <p><a href='#'>WOMEN</a></p>
+            <p><a href='#'>PLUS SIZE</a></p>
+            <p><a href='#'>ACCESSORISE</a></p>
+            <p><a href='#'>OFFICIAL MERCH</a></p>
+            <p><a href='#'>SNEAKERS</a></p>
+            <p><a href='#'>BEWAKOOF AIR</a></p>
+            <p><a href='#'>HEAVY DUTY</a></p>
+            <p><a href='#'>CUSTOMIZATION</a></p>
+            <p><a href='#'>WINTERWEAR</a></p>
+          </div>
+
+        </div>
+
       </div>
 
 
