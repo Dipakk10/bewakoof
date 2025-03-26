@@ -144,8 +144,6 @@
         justify-content: center;
         align-items: center;
         font-size: 16px;
-        border: 1px solid red;
-
     }
     
     p{
@@ -153,7 +151,6 @@
         margin: 1rem 4rem 0 0.01rem;
         letter-spacing: 1px;
         text-Overflow: ellipsis;
-        /* flex-shrink: 3; */
     }
      
     a{
