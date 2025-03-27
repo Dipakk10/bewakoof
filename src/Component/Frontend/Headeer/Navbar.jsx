@@ -74,16 +74,16 @@ return (
 
       <div className="topnav-3">
         <div className="topnav_3a">
-          <p><a href='#'>MEN</a></p>
-          <p><a href='#'>WOMEN</a></p>
-          <p><a href='#'>PLUS SIZE</a></p>
-          <p><a href='#'>ACCESSORISE</a></p>
-          <p><a href='#'>OFFICIAL MERCH</a></p>
-          <p><a href='#'>SNEAKERS</a></p>
-          <p><a href='#'>BEWAKOOF AIR</a></p>
-          <p><a href='#'>HEAVY DUTY</a></p>
-          <p><a href='#'>CUSTOMIZATION</a></p>
-          <p><a href='#'>WINTERWEAR</a></p>
+          <p><a href='#'>Men</a></p>
+          <p><a href='#'>Women</a></p>
+          <p><a href='#'>Pluse size</a></p>
+          <p><a href='#'>Accessories</a></p>
+          <p><a href='#'>Official Merch</a></p>
+          <p><a href='#'>Sneakers</a></p>
+          <p><a href='#'>Bewakoof Air</a></p>
+          <p><a href='#'>Heavy Duty</a></p>
+          <p><a href='#'>Customization</a></p>
+          <p><a href='#'>Winterwear</a></p>
         </div>
 
       </div>
